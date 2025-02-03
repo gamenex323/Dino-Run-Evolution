@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: texture_spider
+  m_Shader: {fileID: 4800000, guid: fe4dc6667161b437a82d94861aaf1f79, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _RIMOVERLAP_ON
+  - _SEGMENTED_ON
+  - _SPCOVERLAP_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: aceff7d9ae43b16448fc8ad366ef6f42, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f4deeaace1dff4d4e946c0673fc854d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AmbientCol: 0.37
+    - _Clipped: 0
+    - _ColBright: 0
+    - _ColIntense: 1
+    - _Lumin: 1.12
+    - _MaxAtten: 1
+    - _MaxLight: 0.51
+    - _MinLight: 0.68
+    - _Offset: 0.54
+    - _OtlWidth: 1
+    - _PostAtten: 0
+    - _RimIntense: 0
+    - _RimLimit: 0
+    - _RimOverlap: 1
+    - _RimSmooth: 0
+    - _RimTolerc: 0.35
+    - _Segmented: 1
+    - _Shininess: 0.48113528
+    - _ShnIntense: 0
+    - _ShnOverlap: 0
+    - _ShnRange: 0.15
+    - _ShnSmooth: 0
+    - _SpcIntence: 0
+    - _SpcLimit: 0
+    - _SpcOverlap: 1
+    - _SpcSmooth: 0
+    - _SpcTolerc: 0.05
+    - _Steps: 12.1
+    - _StpSmooth: 0.32
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DarkColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OtlColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 0, g: 0, b: 1, a: 1}
+    - _ShnColor: {r: 1, g: 1, b: 0, a: 1}
+    - _SpcColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.3358209, g: 0.3358209, b: 0.3358209, a: 1}
+  m_BuildTextureStacks: []

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6494280042623279670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6494280042623279665}
+  - component: {fileID: 6494280042623279664}
+  m_Layer: 0
+  m_Name: Galary Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6494280042623279665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6494280042623279670}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6494280042623279664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6494280042623279670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef88812f1afea7e4fb07b1b778e4fb01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  galleryInsectData: {fileID: 11400000, guid: 475eb50b2a3829c4082f8d2e8e2e70eb, type: 2}
+  specialInsectData: {fileID: 11400000, guid: d4e33efd6ee901a478d878a35c845b59, type: 2}
+  characterItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  specialItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  characterContent: {fileID: 0}
+  specialItemContent: {fileID: 0}
+  contentOffButtonSprite: {fileID: 21300000, guid: 328ab4f03eb2c6b45aa259e1458b62b4, type: 3}
+  contentOnButtonSprite: {fileID: 21300000, guid: f4b431c6a5a7e6b4eb6d3d1107cbbf1a, type: 3}
+  galaryButton: {fileID: 0}
+  charcaterSelectionButton: {fileID: 0}
+  specialItemSelectionButton: {fileID: 0}
+  main_galary: {fileID: 0}

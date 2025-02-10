@@ -9,8 +9,6 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: fly
   m_Shader: {fileID: 4800000, guid: ed04895971c00fc498c346df2ac0e9b4, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _SOURCE_SPECULARALPHA
   m_InvalidKeywords:
@@ -22,7 +20,6 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: _MainTex
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -73,7 +70,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AmbientCol: 0
-    - _AoIntensity: 1.46
+    - _AoIntensity: 1
     - _BlendMainNormal: 1
     - _Brightness: 1
     - _BumpScale: 1
@@ -83,16 +80,16 @@ Material:
     - _ContrastDetailMap: 0
     - _Cull: 0
     - _Cutoff: 0.5
-    - _DetailBrightness: 3
+    - _DetailBrightness: 1
     - _DetailNormalMapScale: 1
     - _DetailSaturation: 0
     - _DstBlend: 0
-    - _EmissionIntensity: 1.05
+    - _EmissionIntensity: 1
     - _EnableDetailMask: 0
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
-    - _IntensityMask: 0.58
+    - _IntensityMask: 1
     - _InvertABaseColor: 0
     - _InvertMask: 0
     - _Lumin: 0.34
@@ -114,7 +111,7 @@ Material:
     - _Source: 0
     - _SourceMask: 0
     - _SpecularHighlights: 1
-    - _SpecularIntensity: 0.29
+    - _SpecularIntensity: 0.2
     - _SpreadDetailMap: 0
     - _SrcBlend: 1
     - _Steps: 7.9
@@ -125,11 +122,11 @@ Material:
     - _ZWrite: 1
     - __dirty: 1
     m_Colors:
-    - _Color: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DetailColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GlobalXYTilingXYZWOffsetXY: {r: 1, g: 1, b: 0, a: 0}
     - _OtlColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShnColor: {r: 0.1024242, g: 0.735849, b: 0, a: 1}
-    - _SpecularColor: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 0}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []

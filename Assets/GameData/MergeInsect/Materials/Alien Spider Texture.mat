@@ -8,21 +8,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Alien Spider Texture
-  m_Shader: {fileID: 4800000, guid: fe4dc6667161b437a82d94861aaf1f79, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
+  m_Shader: {fileID: 4800000, guid: 76f41d41695b62049a4fa480333ac2ed, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
-  - _RIMOVERLAP_ON
   - _SEGMENTED_ON
-  - _SPCOVERLAP_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -64,7 +59,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AmbientCol: 0.29
+    - _AmbientCol: 0
     - _BumpScale: 1
     - _Clipped: 0
     - _ColBright: 0
@@ -75,45 +70,30 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
-    - _Lumin: 1.1
-    - _MaxAtten: 1
+    - _Lumin: 2
     - _MaxLight: 1
     - _Metallic: 0
     - _MinLight: 0.819
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Offset: -0.3
-    - _OtlWidth: 1.7
+    - _Offset: 1.1
+    - _OtlWidth: 0
     - _Parallax: 0.02
-    - _PostAtten: 0
-    - _RimIntense: 0
-    - _RimLimit: 0
-    - _RimOverlap: 1
-    - _RimSmooth: 0
-    - _RimTolerc: 0.35
     - _Segmented: 1
-    - _ShnIntense: 0.31
+    - _ShnIntense: 1
     - _ShnOverlap: 0
     - _ShnRange: 0.055
-    - _ShnSmooth: 0.55
+    - _ShnSmooth: 0
     - _SmoothnessTextureChannel: 0
-    - _SpcIntence: 0
-    - _SpcLimit: 0
-    - _SpcOverlap: 1
-    - _SpcSmooth: 0
-    - _SpcTolerc: 0.05
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Steps: 10.9
+    - _Steps: 1.2
     - _StpSmooth: 0.898
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DarkColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OtlColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 0, g: 0, b: 1, a: 1}
+    - _OtlColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShnColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SpcColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

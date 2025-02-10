@@ -8,9 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: black widow (1) 1
-  m_Shader: {fileID: 4800000, guid: fe4dc6667161b437a82d94861aaf1f79, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
+  m_Shader: {fileID: 4800000, guid: 121194756ac93f54b912b16e3f5bcdd9, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
   - DR_CEL_EXTRA_ON
@@ -20,9 +18,6 @@ Material:
   - DR_VERTEX_COLORS_ON
   - _CELPRIMARYMODE_SINGLE
   - _OVERRIDELIGHTMAPDIR_ON
-  - _RIMOVERLAP_ON
-  - _SEGMENTED_ON
-  - _SPCOVERLAP_ON
   - _TEXTUREBLENDINGMODE_MULTIPLY
   - _UNITYSHADOWMODE_NONE
   m_LightmapFlags: 4
@@ -31,7 +26,6 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -86,15 +80,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _AmbientCol: 0.44
     - _Blend: 0
     - _BumpScale: 1
     - _CelExtraEnabled: 1
     - _CelNumSteps: 3
     - _CelPrimaryMode: 1
-    - _Clipped: 0
-    - _ColBright: 0
-    - _ColIntense: 1
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -117,34 +107,21 @@ Material:
     - _LightContribution: 0
     - _LightmapDirectionPitch: 0
     - _LightmapDirectionYaw: 0
-    - _Lumin: 0.68
-    - _MaxAtten: 1
-    - _MaxLight: 1
     - _Metallic: 0
-    - _MinLight: 0.49
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Offset: 1.1
-    - _OtlWidth: 1.6
     - _OutlineDepthOffset: 0
     - _OutlineWidth: 1.62
     - _OverrideLightmapDir: 1
     - _Parallax: 0.02
-    - _PostAtten: 0
     - _QueueOffset: 0
-    - _RampSmooth: 0.53
-    - _RampSmoothOtherLights: 0.41
+    - _RampSmooth: 0.001
+    - _RampSmoothOtherLights: 0.13
     - _RampThreshold: 0.35
-    - _RampThresholdOtherLights: 0.57
+    - _RampThresholdOtherLights: 0.11
     - _RimEnabled: 1
-    - _RimIntense: 0
-    - _RimLimit: 0
-    - _RimMax: 1.65
-    - _RimMin: 1.41
-    - _RimOverlap: 1
-    - _RimSmooth: 0
-    - _RimTolerc: 0.35
-    - _Segmented: 1
+    - _RimMax: 0.95
+    - _RimMin: 0.5
     - _SelfShadingSize: 0.5
     - _SelfShadingSizeExtra: 0.6
     - _ShadowEdgeSize: 0.05
@@ -152,22 +129,11 @@ Material:
     - _Shadow_HSV_H: 0
     - _Shadow_HSV_S: 0
     - _Shadow_HSV_V: 0
-    - _ShnIntense: 0
-    - _ShnOverlap: 0
-    - _ShnRange: 0.15
-    - _ShnSmooth: 0
-    - _Smoothness: 0.1
+    - _Smoothness: 0.2
     - _SmoothnessTextureChannel: 0
-    - _SpcIntence: 0
-    - _SpcLimit: 0
-    - _SpcOverlap: 1
-    - _SpcSmooth: 0
-    - _SpcTolerc: 0.05
     - _SpecularEnabled: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Steps: 13.3
-    - _StpSmooth: 0.46
     - _Surface: 0
     - _TextureBlendingMode: 0
     - _TextureImpact: 1
@@ -185,18 +151,14 @@ Material:
     - _ColorDimExtra: {r: 1, g: 1, b: 1, a: 1}
     - _ColorDimSteps: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _ColorGradient: {r: 1, g: 1, b: 1, a: 1}
-    - _DarkColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FlatRimColor: {r: 1, g: 1, b: 1, a: 1}
     - _FlatSpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _HColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
     - _LightmapDirection: {r: 0, g: 1, b: 0, a: 0}
-    - _OtlColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimColor: {r: 0.8, g: 0.8, b: 0.8, a: 0.6}
     - _SColor: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
-    - _ShnColor: {r: 1, g: 1, b: 0, a: 1}
-    - _SpcColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SpecColor: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
+    - _SpecColor: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 1}
     - _UnityShadowColor: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
   m_BuildTextureStacks: []

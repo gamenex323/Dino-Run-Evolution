@@ -5,6 +5,7 @@ using System;
 using GameAssets.GameSet.GameDevUtils.Managers;
 using UnityEngine.UI;
 using THEBADDEST.CharacterController3;
+//using static ToonyColorsPro.ShaderGenerator.Enums;
 
 namespace THEBADDEST.InteractSyetem
 {
@@ -27,8 +28,7 @@ namespace THEBADDEST.InteractSyetem
         private PlayerDetection playerDetection;
         [SerializeField] public GameObject antData;
         bool canTake = false;
-        public GameObject endPointPart;
-        public float fallForce;
+
         private void Awake()
         {
             THEBADDEST.CharacterController3.CharacterController.onCharacterUpdate += UpdateTextColor;
@@ -113,7 +113,6 @@ namespace THEBADDEST.InteractSyetem
         {
             if (levelCount <= characterController.currentLevelCount)
             {
-                EndPointFallEffect();
                 CoinsManager.Instance.AddCoins(WordPointToCanvasPoint(CoinsManager.Instance.mainCam, transform.position, CoinsManager.Instance.canvasRect), 1);
                 CoinsManager.Instance.AddCoins(1);
                 characterController.collectionParticle.Play();
@@ -153,18 +152,6 @@ namespace THEBADDEST.InteractSyetem
                     characterController.currentInsect.GetComponent<DOTweenAnimation>().DORestartById("Hit");
                 }
             }
-        }
-
-        void EndPointFallEffect()
-        {
-            Rigidbody rb = endPointPart.GetComponent<Rigidbody>();
-
-            rb.useGravity = true;
-            rb.drag = 0f;
-            rb.angularDrag = 0f;
-            rb.AddForce(Vector3.down * fallForce, ForceMode.Impulse);
-
-            Destroy(endPointPart, 2f);
         }
 
         void DestroyConffety()

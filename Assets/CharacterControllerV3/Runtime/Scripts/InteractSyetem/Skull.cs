@@ -24,7 +24,7 @@ namespace THEBADDEST.InteractSyetem
                     SoundManager.Instance.PlayOneShot(SoundManager.Instance.skullcollection, 1);
                     other.GetComponent<Collider>().enabled = true;
                     SkullCOunt++;
-                    if (SkullCOunt == 3)
+                    if (SkullCOunt == 2)
                     {
                         SkullCOunt = 0;
                         CoinsManager.Instance.AddCoins(1);

@@ -136,6 +136,14 @@ public class PlayerDetection : TriggerEffector
 
                     rendererController.canDraw = true;
 
+                    if (this.GetComponentInParent<Animator>())
+                    {
+                        this.GetComponentInParent<Animator>().SetTrigger("Run");
+                    }
+                    else
+                    {
+                        this.gameObject.transform.parent.GetComponentInChildren<Animator>().SetTrigger("Walk");
+                    }
                     this.GetComponentInParent<Animator>().SetTrigger("Run");
 
                     if (this.transform.parent.parent.GetComponent<AiMovement>())

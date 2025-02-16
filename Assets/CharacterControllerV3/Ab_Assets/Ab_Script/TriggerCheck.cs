@@ -19,13 +19,27 @@ public class TriggerCheck : MonoBehaviour
                         this.gameObject.GetComponentInParent<MoveTowardPlayer>().speed = 6.5f;
                     }
 
-                    this.gameObject.GetComponent<Animator>().SetTrigger("Walk");
+                    if (this.gameObject.GetComponent<Animator>())
+                    {
+                        this.gameObject.GetComponent<Animator>().SetTrigger("Walk");
+                    }
+                    else
+                    {
+                        this.gameObject.GetComponentInChildren<Animator>().SetTrigger("Walk");
+                    }
                     GetComponentInParent<MoveTowardPlayer>().isOppositeDirection = true;
                     GetComponentInParent<MoveTowardPlayer>().isReached = false;
                 }
                 else
                 {
-                    this.gameObject.GetComponent<Animator>().SetTrigger("Walk");
+                    if (this.gameObject.GetComponent<Animator>())
+                    {
+                        this.gameObject.GetComponent<Animator>().SetTrigger("Walk");
+                    }
+                    else
+                    {
+                        this.gameObject.GetComponentInChildren<Animator>().SetTrigger("Walk");
+                    }
                     GetComponentInParent<MoveTowardPlayer>().isTriggerCheck = true;
                     GetComponentInParent<MoveTowardPlayer>().isReached = false;
                 }
